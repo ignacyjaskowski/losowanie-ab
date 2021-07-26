@@ -3,19 +3,49 @@ input.onButtonPressed(Button.A, function () {
         punkty += 1
         _12 = lista[randint(1, 2)]
         if (_12 == 1) {
-            music.ringTone(147)
+            basic.showLeds(`
+                # . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                `)
+            basic.pause(500)
+            basic.clearScreen()
         } else if (_12 == 2) {
-            music.ringTone(147)
-            music.ringTone(147)
+            basic.showLeds(`
+                # . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                `)
+            basic.pause(1000)
+            basic.clearScreen()
         }
     } else if (_12 == 2) {
         życie += -1
         _12 = lista[randint(1, 2)]
         if (_12 == 1) {
-            music.ringTone(147)
+            basic.showLeds(`
+                # . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                `)
+            basic.pause(500)
+            basic.clearScreen()
         } else if (_12 == 2) {
-            music.ringTone(147)
-            music.ringTone(147)
+            basic.showLeds(`
+                # . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                `)
+            basic.pause(1000)
+            basic.clearScreen()
         }
     }
 })
@@ -28,19 +58,49 @@ input.onButtonPressed(Button.B, function () {
         punkty += -1
         _12 = lista[randint(1, 2)]
         if (_12 == 1) {
-            music.ringTone(147)
+            basic.showLeds(`
+                # . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                `)
+            basic.pause(500)
+            basic.clearScreen()
         } else if (_12 == 2) {
-            music.ringTone(147)
-            music.ringTone(147)
+            basic.showLeds(`
+                # . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                `)
+            basic.pause(1000)
+            basic.clearScreen()
         }
     } else if (ab == 2) {
         życie += 1
         _12 = lista[randint(1, 2)]
         if (_12 == 1) {
-            music.ringTone(147)
+            basic.showLeds(`
+                # . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                `)
+            basic.pause(500)
+            basic.clearScreen()
         } else if (_12 == 2) {
-            music.ringTone(147)
-            music.ringTone(147)
+            basic.showLeds(`
+                # . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                . . . . .
+                `)
+            basic.pause(1000)
+            basic.clearScreen()
         }
     }
 })
@@ -51,8 +111,23 @@ let punkty = 0
 lista = [1, 2]
 _12 = lista[randint(1, 2)]
 if (_12 == 1) {
-    music.ringTone(147)
+    basic.showLeds(`
+        # . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.pause(500)
+    basic.clearScreen()
 } else if (_12 == 2) {
-    music.ringTone(147)
-    music.ringTone(147)
+    basic.showLeds(`
+        # . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.pause(1000)
+    basic.clearScreen()
 }
