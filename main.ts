@@ -141,3 +141,8 @@ if (_12 == 1) {
     basic.pause(1000)
     basic.clearScreen()
 }
+basic.forever(function () {
+    if (życie == 0) {
+        control.reset()
+    }
+})
