@@ -1,6 +1,8 @@
 input.onButtonPressed(Button.A, function () {
     if (_12 == 1) {
         punkty += 1
+        basic.showString("" + (życie))
+        basic.showString("" + (punkty))
         _12 = lista[randint(1, 2)]
         if (_12 == 1) {
             basic.showLeds(`
@@ -25,6 +27,8 @@ input.onButtonPressed(Button.A, function () {
         }
     } else if (_12 == 2) {
         życie += -1
+        basic.showString("" + (życie))
+        basic.showString("" + (punkty))
         _12 = lista[randint(1, 2)]
         if (_12 == 1) {
             basic.showLeds(`
@@ -56,6 +60,8 @@ input.onButtonPressed(Button.B, function () {
     let ab = 0
     if (_12 == 1) {
         punkty += -1
+        basic.showString("" + (życie))
+        basic.showString("" + (punkty))
         _12 = lista[randint(1, 2)]
         if (_12 == 1) {
             basic.showLeds(`
@@ -80,6 +86,8 @@ input.onButtonPressed(Button.B, function () {
         }
     } else if (ab == 2) {
         życie += 1
+        basic.showString("" + (życie))
+        basic.showString("" + (punkty))
         _12 = lista[randint(1, 2)]
         if (_12 == 1) {
             basic.showLeds(`
@@ -106,8 +114,10 @@ input.onButtonPressed(Button.B, function () {
 })
 let _12 = 0
 let lista: number[] = []
-let życie = 12
 let punkty = 0
+let życie = 0
+życie = 12
+punkty = 0
 lista = [1, 2]
 _12 = lista[randint(1, 2)]
 if (_12 == 1) {
