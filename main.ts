@@ -12,7 +12,7 @@ input.onButtonPressed(Button.A, function () {
                 . . . . .
                 . . . . .
                 `)
-            basic.pause(500)
+            basic.pause(1000)
             basic.clearScreen()
         } else if (_12 == 2) {
             basic.showLeds(`
@@ -22,7 +22,7 @@ input.onButtonPressed(Button.A, function () {
                 . . . . .
                 . . . . .
                 `)
-            basic.pause(1000)
+            basic.pause(2000)
             basic.clearScreen()
         }
     } else if (_12 == 2) {
@@ -38,7 +38,7 @@ input.onButtonPressed(Button.A, function () {
                 . . . . .
                 . . . . .
                 `)
-            basic.pause(500)
+            basic.pause(1000)
             basic.clearScreen()
         } else if (_12 == 2) {
             basic.showLeds(`
@@ -48,7 +48,7 @@ input.onButtonPressed(Button.A, function () {
                 . . . . .
                 . . . . .
                 `)
-            basic.pause(1000)
+            basic.pause(2000)
             basic.clearScreen()
         }
     }
@@ -71,7 +71,7 @@ input.onButtonPressed(Button.B, function () {
                 . . . . .
                 . . . . .
                 `)
-            basic.pause(500)
+            basic.pause(1000)
             basic.clearScreen()
         } else if (_12 == 2) {
             basic.showLeds(`
@@ -81,7 +81,7 @@ input.onButtonPressed(Button.B, function () {
                 . . . . .
                 . . . . .
                 `)
-            basic.pause(1000)
+            basic.pause(2000)
             basic.clearScreen()
         }
     } else if (ab == 2) {
@@ -97,7 +97,7 @@ input.onButtonPressed(Button.B, function () {
                 . . . . .
                 . . . . .
                 `)
-            basic.pause(500)
+            basic.pause(1000)
             basic.clearScreen()
         } else if (_12 == 2) {
             basic.showLeds(`
@@ -107,7 +107,7 @@ input.onButtonPressed(Button.B, function () {
                 . . . . .
                 . . . . .
                 `)
-            basic.pause(1000)
+            basic.pause(2000)
             basic.clearScreen()
         }
     }
@@ -128,7 +128,7 @@ if (_12 == 1) {
         . . . . .
         . . . . .
         `)
-    basic.pause(500)
+    basic.pause(1000)
     basic.clearScreen()
 } else if (_12 == 2) {
     basic.showLeds(`
@@ -138,7 +138,7 @@ if (_12 == 1) {
         . . . . .
         . . . . .
         `)
-    basic.pause(1000)
+    basic.pause(2000)
     basic.clearScreen()
 }
 basic.forever(function () {
